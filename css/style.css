@@ -1965,6 +1965,7 @@ ul {
 /* line 7, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
 .main_menu .navbar {
   padding: 0px;
+  z-index: 1;
 }
 
 /* line 12, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
