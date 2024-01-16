@@ -7897,6 +7897,19 @@ text-align: center;
     position: relative;
     margin: 0 35px 35px 30px;
   }
+  .flexbox{
+display: block;
+  }
+ .flexcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 85% !important;
+    align-items: baseline;
+    height: 230px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
 }
 
 
@@ -7914,6 +7927,8 @@ height: 30% !important;
 height: 35% !important;
 }
 }
+
+
 @media (max-width: 1024px) {
   .flexcard {
     display: flex;
