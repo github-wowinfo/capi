@@ -7900,6 +7900,7 @@ text-align: center;
   .flexbox{
 display: block;
   }
+
  .flexcard {
     display: flex;
     flex-direction: column;
@@ -7909,6 +7910,9 @@ display: block;
     height: 230px;
     border-radius: 20px;
     margin-left: 50px;
+}
+.banner_part .banner_text {
+margin-bottom: 270px;
 }
 }
 
