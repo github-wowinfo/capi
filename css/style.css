@@ -2305,7 +2305,7 @@ ul {
   left: 0;
   bottom: 0;
   background-color: #9e7958;
-  width: 196px;
+  width: 225px;
   height: 435px;
 }
 
@@ -7621,7 +7621,14 @@ h6 {
 
 /*# sourceMappingURL=../css/style.map */
 
-
+@media (min-width: 412px) {
+.banner_text_iner{
+margin-left: 160px !important;
+}
+.banner_img{
+padding-top: 50px;
+}
+}
 
 @media (max-width: 769px) {
   body {
@@ -7747,10 +7754,28 @@ visibility: hidden;
   .single_product_item {
 margin-left: -5px !important;
 }
+
+.wallets-c   {
+margin-left: -10px !important;
+    margin-right: 15px !important;
+}
+
+.OP{
+margin-left: -40px;
+}
+.single_product_item_thumb{
+margin-right: -115px;
+}
+
+.p-detail h3 {
+
+}
 .img-fluid {
     
     height: 310px;
     width: 300px;
+    margin-right: 65px;
+    padding-top: 50px;
 }
 .trending_items {
     padding: 15px 0 40px;
@@ -7770,6 +7795,9 @@ margin-right: 60px !important;
 .banner_img {
 width: 100%;
 margin-right: 50px;
+}
+.Best-Q{
+margin-left: 40px;
 }
 }
 
@@ -7909,6 +7937,16 @@ height: 350px;
 .wallets-c{
 height: 280px;
 }
+.banner_img {
+    max-width: 100%;
+    height: auto;
+    height: 460px;
+    width: 450px;
+    float: right;
+}
+.banner_text_iner{
+margin-left: -130px;
+}
 }
 
 
@@ -7917,7 +7955,7 @@ height: 280px;
 margin-right: 50px;
 }
 .single_product_item img{
-margin-left: 80px !important;
+/* margin-left: 80px !important; */
 width: 340px;
 }
 .banner_img {
@@ -8052,10 +8090,22 @@ display: block;
 height: 330px;
 }
 .wallets-c{
-height: 270px;
+height: 230px;
 }
 .flexcard{
 margin-bottom: 25px;
+}
+
+.banner_img img{
+    max-width: 100%;
+    height: auto;
+    height: 400px;
+    width: 350px;
+    float: right;
+}
+
+.banner_text {
+margin-left: -100px;
 }
 }
 
@@ -8095,6 +8145,17 @@ margin-bottom: 25px;
   .footer_menu , .social_icon ,.copyright_text{
   text-align: center !important;
   }
+
+  .banner_img {
+  max-width: 100%;
+    height: auto;
+    height: 440px;
+    width: 470px;
+    float: right;
+  }
+  .banner_part{
+  margin-left: -100px;
+  }
 }
 
 
@@ -8108,4 +8169,16 @@ background-color: #D3B683;
 }
 .custom-info , .person-info{
 padding-top: 20%;
+}
+.p-detail h3 a {
+text-decoration: none;
+color: #4B3049 !important;
+font-size: 20px;
+}
+.p-detail h3 {
+text-align: center;
+margin-bottom: 30px;
+}
+.single_product_item_thumb img{
+border-radius: 70px 0 70px 0;
 }

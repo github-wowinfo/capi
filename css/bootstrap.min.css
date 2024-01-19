@@ -436,7 +436,8 @@ mark {
     max-width: 100%;
     height: auto;
     height: 480px;
-    width: 600px;
+    width: 610px;
+    float: right;
 }
 .op-fluid{
 height: 330px;
@@ -447,6 +448,15 @@ margin-right: 0px !important;
 margin-left: 0px !important;
 }
 
+.our-product{
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+}
+
+
+.Best-Q{
+margin-left: 90px;
+}
 .product-img{
 height: 320px;
 }
