@@ -7693,6 +7693,10 @@ visibility: hidden;
     margin: 5px 0 0 45px;
   }
 
+  .single_product_list {
+    margin-top: 140px;
+  }
+
   .navbar-brand img {
     top: -14px;
     right: -260px !important;
